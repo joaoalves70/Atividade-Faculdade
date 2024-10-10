@@ -60,7 +60,7 @@ Nesta fase, recriamos o **rodapé (footer)** do site da **Nike**, contendo seç�
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/seu-usuario/projeto-componentes-web.git
+    git clone https://github.com/joaoalves70/Atividade-Faculdade.git
     ```
 
 2. Abra os arquivos `.html` no navegador:
