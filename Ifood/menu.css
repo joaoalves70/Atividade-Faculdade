@@ -1,0 +1,87 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;  /* Centraliza o ícone horizontalmente */
+    align-items: center;      /* Centraliza o ícone verticalmente */
+    height: 100vh;            /* Ocupa a altura total da janela */
+    background-color: #f4f4f4; /* Cor de fundo clara */
+}
+
+.profile-menu {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Estilo do Dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 50px; /* Ajuste para abrir o menu logo abaixo do ícone */
+    left: 0;   /* Alinha o menu ao ícone de perfil */
+    width: 220px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    z-index: 1000; /* Garante que o menu apareça sobre qualquer outro elemento */
+}
+
+.dropdown-menu p {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px 15px;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu a i {
+    margin-right: 10px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f4f4f4;
+}
+
+.highlight {
+    color: #e30613;
+}
+
+.badge {
+    background-color: #e30613;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 12px;
+    margin-left: auto;
+}
