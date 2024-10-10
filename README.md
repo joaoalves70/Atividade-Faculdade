@@ -16,3 +16,7 @@ Nesta fase, iremos construir a primeira página de perfil do usuário utilizando
 10. Link para seu LinkedIn e/ou outras redes sociais que queira incluir.
 
 ### Para acessar a Fase 1, consulte o arquivo `index.html`.
+
+
+## FASE 01 - 1
+Agora, para praticar nossa visualização e análise de layout, escolha 4 sites e, destes sites, escolha 2 áreas distintas. A tarefa será uma análise do conteúdo e da organização deles nos prints que você escolher e, com base nela, sugerir como montaria o HTML dessas páginas.
